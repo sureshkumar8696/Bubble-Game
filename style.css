@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@600&family=Montserrat:wght@600;700;800&family=Righteous&family=Varela+Round&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Maven Pro', sans-serif;
+    box-sizing: border-box;
+}
+
+body,html{
+    height: 100vh;
+    width: 100vw;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(87, 167, 87);
+
+}
+#panel{
+    height: 80%;
+    border-radius: 6px;
+    width: 80%;
+    overflow: hidden;  
+    background-color: rgb(239, 239, 239);
+}
+#ptop{
+    padding: 15px 30%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 90px;
+    overflow: hidden;
+    background-color: rgb(61, 99, 33);
+}
+button{
+    font-size: 25px;
+    padding: 5px 12px;
+    overflow: hidden;
+    border-radius: 5%;
+    border:none;
+    color: white;
+    transition: all ease 0.3s;
+    background-color: #57A757;
+}
+button:hover{
+    cursor: pointer;
+    background-color: #4f964a;
+}
+.elems{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.elems h4{
+    font-weight: 100;
+    font-size: 25px;
+}
+.box{
+    color: #266e21;
+    font-weight: 600;
+    padding: 10px 20px;
+    align-items: center;
+    font-size: 25px;
+    background-color: wheat;
+    border-radius: 5px;
+}
+#pbtm{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    height: calc(100% - 90px);
+    width: 100%;
+    padding: 20px;
+}
+.bubble{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    color: #fff3f3;
+    width: 70px;
+    height: 70px;
+    font-weight: 100;
+    background-color: #4f964a;
+    border-radius: 50%;
+    transition: all ease 0.4s;
+}
+
+.bubble:hover {
+    cursor: pointer;
+    background-color: #3d7539;
+}
